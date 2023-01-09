@@ -1,3 +1,5 @@
+import './App.css';
+
 const App = () => (
   <div>Hello !!!</div>
 );
