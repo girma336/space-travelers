@@ -1,10 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import ReactDOM from 'react-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Rockets from './components/rocket';
+import Missions from './components/missions';
+import Myprofile from './components/myprofile';
+import Navbar from './components/Navbar';
+import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/rockets" element={<Rockets />} />
+        <Route path="/missions" element={<Missions />} />
+        <Route path="/myprofile" element={<Myprofile />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
+  document.getElementById('root'),
 );
