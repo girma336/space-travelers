@@ -1,0 +1,36 @@
+.rocket-list .new-container {
+  box-shadow: 3px 3px 4px lightgrey;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.media-all {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+img {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  margin-right: 40px;
+}
+
+.text-dec {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-variant: normal;
+}
+
+.btn {
+  background-color: blue;
+  border: 1px solid blue;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+}
