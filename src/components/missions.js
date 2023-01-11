@@ -6,7 +6,7 @@ import MissionList from './missionList';
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
   return (
-    <Table className="table">
+    <Table className="table" responsive="sm" bordered>
       <thead>
         <tr>
           <th className="mission-name">Missions</th>
