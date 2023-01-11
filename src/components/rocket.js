@@ -10,6 +10,7 @@ const Rockets = () => {
         <RocketList
           key={rocket.id}
           id={rocket.id}
+          reserved={rocket?.reserved}
           name={rocket.rocket_name}
           images={rocket.flickr_images}
           description={rocket.description}

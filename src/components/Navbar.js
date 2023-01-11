@@ -16,7 +16,7 @@ function NavBar() {
           <li className="nav-li">
             <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin')}
+              className="nav-link"
             >
               Rockets
             </NavLink>
@@ -24,7 +24,7 @@ function NavBar() {
           <li className="nav-li">
             <NavLink
               to="/missions"
-              className={({ isActive }) => (isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin')}
+              className="nav-link"
             >
               Missions
             </NavLink>
@@ -32,7 +32,7 @@ function NavBar() {
           <li className="nav-li">
             <NavLink
               to="/myprofile"
-              className={({ isActive }) => (isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin')}
+              className="nav-link"
             >
               My profile
             </NavLink>
