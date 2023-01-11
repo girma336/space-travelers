@@ -1,0 +1,73 @@
+.mission-list {
+  background: linear-gradient(180deg, rgba(49, 49, 49, 1) 0%, rgba(6, 6, 6, 1) 100%), url('https://images.unsplash.com/photo-1589889031903-c3c3f3ebb3f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80') center;
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+
+.table {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  color: black;
+}
+
+.mission-name {
+  color: blueviolet;
+}
+
+.mission-description {
+  color: black;
+  font-family: "Lora", serif;
+}
+
+.mission-status {
+  color: green;
+}
+
+.mission-action {
+  color: green;
+}
+
+.text-wrap {
+  white-space: nowrap;
+}
+
+.badge-size {
+  padding: 5px;
+  font-size: 0.7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leave-btn {
+  border-color: red;
+}
+
+.join-btn {
+  border: 1px solid rgb(51, 58, 64);
+}
+
+.leave-btn,
+.join-btn {
+  background: none;
+  color: rgb(51, 58, 64);
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+}
+
+.join-btn,
+.leave-btn,
+.badge-size {
+  width: 95px;
+  height: 28px;
+}
+
+.leave-btn:hover,
+.join-btn:hover {
+  background-color: #f7c948;
+  cursor: pointer;
+}
