@@ -29,12 +29,34 @@ img {
   border: 1px solid black;
 }
 
-/* .btn {
-  background-color: blue;
-  border: 1px solid blue;
-  padding: 12px;
-  border-radius: 10px;
-  font-size: 18px;
-  margin: 5px;
-  cursor: pointer;
-} */
+@media only screen and (max-width: 600px) {
+  .rocket-list .new-container {
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+  }
+
+  .text-dec {
+    font-size: 16px;
+  }
+
+  .display-6 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 5%;
+    color: greenyellow;
+  }
+
+  .btn-light {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 3px;
+  }
+}
