@@ -11,11 +11,11 @@ const MissionList = ({
 }) => {
   const dispatch = useDispatch();
 
-  const handleJoinMission = () => {
+  const handleJoinMission = (id) => {
     dispatch(joinMission(id));
   };
 
-  const handleLeaveMission = () => {
+  const handleLeaveMission = (id) => {
     dispatch(leaveMission(id));
   };
 
@@ -25,8 +25,8 @@ const MissionList = ({
       <td className="mission-description ">{description}</td>
       <td>{reserved ? (<Badge bg="info" className="badge-size">Active Member</Badge>) : (<Badge bg="secondary" className="badge-size">Not A Member</Badge>)}</td>
       <td colSpan={2}>
-        { reserved ? (<Button onClick={handleLeaveMission} className="leave-btn badge-size">LeaveMission</Button>) : (
-          <Button onClick={handleJoinMission} className="join-btn badge-size">
+        { reserved ? (<Button onClick={() => handleLeaveMission(id)} className="leave-btn badge-size">LeaveMission</Button>) : (
+          <Button onClick={() => handleJoinMission(id)} className="join-btn badge-size">
             <div className="text-wrap">
               JoinMission
             </div>
