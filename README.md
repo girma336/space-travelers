@@ -1,27 +1,28 @@
 # # # SPACE TRAVELERS
-📗 Table of Contents
-📗 Table of Contents
-📖 Space Traveler's Hub
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-🚀 Project Details
-🚀 Pull Requests
-💻 Getting Started
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgments
-❓ FAQ
-📝 License
+![](https://img.shields.io/badge/Microverse-blueviolet)
+<!-- TABLE OF CONTENTS -->
+# :green_book: Table of Contents
+- [:book: About the Project](#about-project)
+  - [:hammer_and_spanner: Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [:rocket: Live Demo](#live-demo)
+- [:computer: Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [:silhouettes: Authors](#authors)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
+- [:question: FAQ](#faq)
+- [:memo: License](#license)
+<!-- PROJECT DESCRIPTION -->
+
 📖 [Space-travellers]
 This is a React WebApp with the real live data from the SpaceX API. The application will allow users to book Rockets, and join selected space missions.
 
