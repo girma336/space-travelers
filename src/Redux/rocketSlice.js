@@ -21,19 +21,25 @@ const rockSlice = createSlice({
   reducers: {
     bookRocket(state, action) {
       const newId = action.payload;
-      // eslint-disable-next-line
-      state.rockets = state.rockets.map((rocket) => {
+      const newState = state.rockets.map((rocket) => {
         if (rocket.id !== newId) return rocket;
         return { ...rocket, reserved: true };
       });
+      return {
+        ...state,
+        rockets: newState,
+      };
     },
     removeRocket(state, action) {
       const newId = action.payload;
-      // eslint-disable-next-line
-      state.rockets = state.rockets.map((rocket) => {
+      const newState = state.rockets.map((rocket) => {
         if (rocket.id !== newId) return rocket;
         return { ...rocket, reserved: false };
       });
+      return {
+        ...state,
+        rockets: newState,
+      };
     },
   },
   extraReducers: (builder) => {
