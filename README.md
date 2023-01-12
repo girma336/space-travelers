@@ -112,9 +112,8 @@ Mention all of the collaborators of this project.
 
 👤 **Girma**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+- GitHub: [@girma336](https://github.com/girma336)
+
 
 🔭 Future Features
 Add mobile version of the app

@@ -72,3 +72,37 @@
   background-color: #f7c948;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .mission-list {
+    background-size: auto;
+    margin-top: 60%;
+  }
+  .table {
+   margin-top: 10%;
+  }
+  .text-wrap {
+    white-space: normal;
+  }
+  
+  .badge-size {
+    font-size: 0.6em;
+    width: 70px;
+    height: 22px;
+  }
+  .leave-btn,
+  .join-btn {
+    font-size: 0.6rem;
+    padding: 0.3rem 0.4rem;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
