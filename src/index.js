@@ -6,7 +6,6 @@ import App from './App';
 import './index.css';
 import store from './Redux/configureStore';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -15,5 +14,5 @@ ReactDOM.render(
       </Provider>
     </BrowserRouter>
   </React.StrictMode>,
-document.getElementById('root')
+  document.getElementById('root'),
 );
