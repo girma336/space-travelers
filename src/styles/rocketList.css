@@ -34,21 +34,25 @@ img {
     margin: 10px;
     border-radius: 10px;
   }
+
   img {
     width: 200px;
     height: 150px;
     margin-right: 20px;
   }
+
   .text-dec {
     font-size: 16px;
   }
+
   .display-6 {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.2;
     margin-top: 5%;
     color: greenyellow;
-}
+  }
+
   .btn-light {
     font-size: 14px;
     padding: 8px;

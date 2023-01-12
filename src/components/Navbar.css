@@ -75,6 +75,7 @@
     width: 40px;
     height: 40px;
   }
+
   /* Change font size of logo text on mobile */
   .logo h1 {
     color: blueviolet;
@@ -87,27 +88,22 @@
     flex-direction: row;
     align-items: flex-start;
   }
+
   /* Add margin to each nav item on mobile */
   .nav-ul li {
     margin: 0.5rem 0;
   }
+
   /* Center align nav links on mobile */
   .nav-link {
     justify-content: center;
     padding-left: 20px;
     padding-top: 10px;
-    color:brown;
+    color: brown;
   }
+
   .nav-link:active {
     color: rgb(182, 31, 31);
     text-decoration: underline;
   }
-  
 }
-
-
-
-
-
-
-
