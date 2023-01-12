@@ -27,7 +27,7 @@ const RocketList = (props) => {
 
             <p className="text-dec">
               {reserved && (
-              <span className="btn btn-primary btn-sm m-1">Reserved</span>
+              <span className="btn btn-info btn-sm m-1">Reserved</span>
               )}
               {description}
             </p>
@@ -35,7 +35,7 @@ const RocketList = (props) => {
               <button
                 type="button"
                 onClick={() => handleCancelClick(id)}
-                className="btn btn btn-dark btn-sm m-1"
+                className="btn btn btn-ligth btn-sm m-1"
               >
                 Cancel Reservation
               </button>
