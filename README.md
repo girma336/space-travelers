@@ -45,7 +45,7 @@ ESlint (is a tool for identifying and reporting on patterns found in ECMAScript/
 
 # 🚀 Live Demo
 Please use the following link to access the website:
-[live demo]()
+[live demo](https://girma336.github.io/space-travelers)
 
 💻 Getting Started
 To get a local copy up and running, follow these steps.
