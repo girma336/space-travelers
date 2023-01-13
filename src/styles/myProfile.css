@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container-mission,
+.container-rocket {
+  margin: 5%;
+  width: 40%;
+}
+
+@media screen and (max-width: 678px) {
+  .container-mission,
+  .container-rocket {
+    width: 90%;
+  }
+}
