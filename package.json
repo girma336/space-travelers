@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build gh-pages",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "eject": "react-scripts eject"
   },
@@ -33,6 +33,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "girma33g/github.io/space-travelers",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -58,6 +59,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "jest": "^27.5.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
