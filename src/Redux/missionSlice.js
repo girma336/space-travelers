@@ -1,7 +1,7 @@
 const JOIN_MISSION = 'space-travelers/missions/JOIN_MISSIONS';
 const LEAVE_MISSION = 'space-travelers/missions/LEAVE_MISSIONS';
 const GET_MISSIONS = 'space-travelers/missions/GET_MISSIONS';
-const baseURL = 'https://api.spacexdata.com/v3/missions';
+const baseURL = 'https://api.spacexdata.com/v4/missions';
 
 const initialState = [];
 
